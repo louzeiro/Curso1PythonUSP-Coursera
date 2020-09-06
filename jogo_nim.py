@@ -67,14 +67,9 @@ def computador_escolhe_jogada(n,m):
 		return n
 	else:
 		aux = n%(m+1)
-		if(aux>0): # se não for multiplo e esta sobrando mais que m, tira o resto
-			
-main()
+		if(aux>0):
 			return aux
 	return m
-			
-		
-
 
 def campeonato():
 	pontosComputador=0
@@ -89,3 +84,4 @@ def campeonato():
 
 	print("Placar final: Voce ", pontosUsuario,"x",pontosComputador,"Computador")
 
+main()
