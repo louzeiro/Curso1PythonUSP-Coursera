@@ -68,6 +68,8 @@ def computador_escolhe_jogada(n,m):
 	else:
 		aux = n%(m+1)
 		if(aux>0): # se não for multiplo e esta sobrando mais que m, tira o resto
+			
+main()
 			return aux
 	return m
 			
